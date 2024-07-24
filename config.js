@@ -13,24 +13,8 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["573147616444", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-["593968585383"], 
-["5492266613038"], 
-["593968263524"],
-['5214434703586'],
-["33760536110"],
-["51906662557"],
-["50492280729"],
-["595976126756"],
-["201066826750"],
-["201033024135"],
-["51948705559"],
-["573012482597"],
-["573147616444"],
-["5215649706747"],
-["59175655964"],
-["595971490733"],
-["5215539356057"]]
+["51971834247", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], // 𝙅𝙤𝙖𝙣𝘽𝙤𝙩-𝙏𝙆
+["51906662557"]]
 
 global.mods = []
 global.prems = []
@@ -128,9 +112,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["593968263524", 'Gata Dios 💻', 1], 
-["5492266466080", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
+["51971834247", 'Joan TK 💻', 1], 
+["51927803866", 'JoanBot-TK 💻', 1],  
+["51906662557", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -138,16 +122,16 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `╭ 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 🐈\n┃\n┃ » 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:\n┃ @globalgb\n┃\n┃ » 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n┃ @gatadios\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @gata_dios\n╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = ` ╭ 𝗚𝗮𝘁𝗮 𝗗𝗶𝗼𝘀 ✓\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ GataNina-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.packname = `╭ 𝑱𝒐𝒂𝒏𝑩𝒐𝒕-𝑻𝑲 👻\n┃\n┃ » 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:\n┃ @globalgb\n┃\n┃ » 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n┃ @gatadios\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @gata_dios\n╰━━━━━━━━•` //"𝑱𝒐𝒂𝒏𝑩𝒐𝒕-𝑻𝑲 👻"
+global.author = ` ╭ 𝑱𝒐𝒂𝒏-𝑻𝑲 ✓\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ GataNina-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰━━━━━━━━•` //"𝑱𝒐𝒂𝒏-𝑻𝑲 ✓"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
-global.vsJB = "3.0 (Beta)"
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.vsJB = "2.5 (Beta)"
+global.gt = "𝑱𝒐𝒂𝒏𝑩𝒐𝒕-𝑻𝑲"
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
@@ -175,8 +159,8 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.wm = "𝑱𝒐𝒂𝒏𝑩𝒐𝒕-𝑻𝑲 : 𝑱𝒐𝒂𝒏-𝑻𝑲"
+global.igfg = "𝑱𝒐𝒂𝒏𝑩𝒐𝒕-𝑻𝑲"
 global.nomorown = "593993684821"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -441,7 +425,7 @@ import(`${file}?update=${Date.now()}`);
 })
 
 async function fetchDataAndProcess() {
-const response = await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/official_accounts.json')
+const response = await fetch('https://raw.githubusercontent.com/JJoan02/JoanBot-TK/master/official_accounts.json')
 const data = await response.json() 
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
@@ -454,7 +438,7 @@ global.tk = accounts.tiktok
 global.ths = accounts.threads
 global.paypal = accounts.paypal
 global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
+global.bot = 'wa.me/51948273587'
 global.cuentas = accounts.all
 
 global.canal1 = channels.channel1
