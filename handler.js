@@ -981,9 +981,9 @@ if (!('delete' in chat)) chat.delete = false
 if (!('modohorny' in chat)) chat.modohorny = true       
 if (!('stickers' in chat)) chat.stickers = false            
 if (!('autosticker' in chat)) chat.autosticker = false      
-if (!('audios' in chat)) chat.audios = true               
-if (!('antiver' in chat)) chat.antiver = false 
-if (!('antiPorn' in chat)) chat.antiPorn = true     
+if (!('audios' in chat)) chat.audios = false               
+if (!('antiver' in chat)) chat.antiver = true 
+if (!('antiPorn' in chat)) chat.antiPorn = false     
 if (!('antiLink' in chat)) chat.antiLink = false     
 if (!('antiLink2' in chat)) chat.antiLink2 = false
 if (!('antiTiktok' in chat)) chat.antiTiktok = false
@@ -997,14 +997,14 @@ if (!('antiThreads' in chat)) chat.antiThreads = false
 if (!('antiTwitch' in chat)) chat.antiTwitch = false
 if (!('antifake' in chat)) chat.antifake = false
 if (!('reaction' in chat)) chat.reaction = true    
-if (!('viewonce' in chat)) chat.viewonce = false       
-if (!('modoadmin' in chat)) chat.modoadmin = false    
-if (!('antitoxic' in chat)) chat.antitoxic = true
+if (!('viewonce' in chat)) chat.viewonce = true       
+if (!('modoadmin' in chat)) chat.modoadmin = true    
+if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('game' in chat)) chat.game = true
 if (!('game2' in chat)) chat.game2 = true
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = true
-if (!('autolevelup' in chat))  chat.autolevelup = true
+if (!('autolevelup' in chat))  chat.autolevelup = false
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
@@ -1022,7 +1022,7 @@ stickers: false,
 autosticker: false,
 audios: false,
 antiver: true,
-antiPorn: true,
+antiPorn: false,
 antiLink: false,
 antiLink2: false,
 antiTiktok: false,
@@ -1036,14 +1036,14 @@ antiThreads: false,
 antiTwitch: false,
 antifake: false,
 reaction: true,
-viewonce: false,
-modoadmin: false,
-antitoxic: true,
+viewonce: true,
+modoadmin: true,
+antitoxic: false,
 game: true, 
 game2: true, 
 simi: false,
 antiTraba: true,
-autolevelup: true,
+autolevelup: false,
 expired: 0,
 }
 let settings = global.db.data.settings[this.user.jid]
@@ -1052,7 +1052,7 @@ if (settings) {
 if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
-if (!('restrict' in settings)) settings.restrict = false
+if (!('restrict' in settings)) settings.restrict = true
 if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
@@ -1063,7 +1063,7 @@ if (!('jadibotmd' in settings)) settings.jadibotmd = true
 self: false,
 autoread: false,
 autoread2: false,
-restrict: false,
+restrict: truee,
 temporal: false,
 antiPrivate: false,
 antiCall: true,
